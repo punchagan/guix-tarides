@@ -447,7 +447,7 @@ uses the specified origin for all Tezos packages."
      (list ocaml-alcotest))))
 
 (define-public ocaml-tezos-context-trace
-  (let ((commit "4fcae20588ba73309edd24913a928c5b0608828e")
+  (let ((commit "7763bcccb6211068f77b0aeea64c1e8bb7d237d1")
 	(revision "0"))
    (package-with-tezos-16
     (package
@@ -462,7 +462,7 @@ uses the specified origin for all Tezos packages."
 	     (commit commit)))
        (sha256
 	(base32
-	 "0lk81jfb4wvmixh0bpm78y4w51v1v1mkqsbqdmd2zs1nnv3v0axd"))))
+	 "0v166268dkw4f61qzgxfx87ydpslxc1dk9hh3nxw6hczaxwi84xh"))))
      (build-system dune-build-system)
      (propagated-inputs
       (list
